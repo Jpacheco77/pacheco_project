@@ -1,7 +1,7 @@
 import dendropy
 from dendropy.interop import raxml
 pleth = dendropy.DnaCharacterMatrix.get(
-    path="/full_plethodon_alignment.phy",
+    path="data/full_plethodon_alignment.phy",
     schema="fasta"
 )
 rx = raxml.RaxmlRunner(raxml_path="/bin/raxmlHPC")
